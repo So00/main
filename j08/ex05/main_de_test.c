@@ -6,7 +6,7 @@
 /*   By: fgiverna <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/15 16:21:09 by fgiverna          #+#    #+#             */
-/*   Updated: 2017/08/18 16:05:52 by atourner         ###   ########.fr       */
+/*   Updated: 2017/08/22 00:25:41 by atourner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+struct s_stock_par		*ft_param_to_tab(int ac, char **av);
 
 int	main(int argc, char **argv)
 {
